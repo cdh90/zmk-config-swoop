@@ -78,7 +78,7 @@
                 &kp N1   &kp N2       &kp N3      &kp N4            &kp N5                      &kp N6          &kp N7       &kp N8     &kp N9          &kp N0
                 &kp LT   &kp PRCNT    &kp LPAR    &kp LBRC    &kp RA(LBKT)                      &kp KP_EQUAL    &kp QMARK    &kp SQT    &kp PLUS        &kp STAR
                 &kp GT   &kp DLLR     &kp RPAR    &kp RBRC    &kp RA(RBKT)                      &kp AT          &kp EXCL     &kp DQT    &kp KP_MINUS    &kp FSLH
-                                             &trans    &mo FNC    &mo SYM2                      &trans          &trans       &trans
+                                             &trans    &mo FNC    &mo NUM                      &trans          &trans       &trans
             >;
         };
 
@@ -92,11 +92,7 @@
             >;
         };
 
-          [NUM] = LAYOUT(
-    RESET,   U_NA,    U_NA,    U_NA,    U_NA,    KC_QUOT, KC_7,    KC_8,    KC_9,    KC_EQL,
-    KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, U_NA,    KC_PLUS,  KC_4,    KC_5,    KC_6,    KC_MINS,
-    U_NA,    KC_ALGR, U_NA,    U_NA,    U_NA,    KC_PAST, KC_1,    KC_2,    KC_3,    KC_SLASH,
-    U_NA,    U_NA,    KC_0, KC_BSPC
+
 
         // Function keys with modifiers
         fnc_layer {
