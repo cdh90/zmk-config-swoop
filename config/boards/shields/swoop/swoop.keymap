@@ -34,10 +34,10 @@
         };
 
         // internal-left & external-right thumb keys
-        combo_sym2 {
+        combo_num {
             timeout-ms = <200>;
             key-positions = <31 33>;
-            bindings = <&mo SYM2>;
+            bindings = <&mo NUM>;
         };
 
         // both left thumb keys
