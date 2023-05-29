@@ -85,9 +85,9 @@
         // numbers
         num_layer {
             bindings = <
-                &trans   &trans    &trans    &trans    &trans                       &kp APOS    &kp 7   &kp 8   &kp 9   &kp
-                &kp LGUI   &kp LALT    &kp LCTRL    &kp LSHIFT  &trans              &kp KP_PLUS    &kp 4   &kp 5   &kp 6   &kp KP_MINUS
-                &trans   &trans    &trans    &trans    &trans                       &kp KP_MULTIPLY   &kp 1   &kp 2   &kp 3   &kp KP_SLASH
+                &trans   &trans    &trans    &trans    &trans                       &kp APOS    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_EQUAL
+                &kp LGUI   &kp LALT    &kp LCTRL    &kp LSHIFT  &trans              &kp KP_PLUS    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
+                &trans   &trans    &trans    &trans    &trans                       &kp KP_MULTIPLY   &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_SLASH
                                    &trans    &kp trans    &kp SPACE                      &kp 0    &kp BSPC    &trans
             >;
         };
