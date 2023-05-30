@@ -50,15 +50,9 @@
         default_layer {
             bindings = <
                 &kp Q    &kp W    &kp F    &kp P         &kp B                         &kp J    &kp L    &kp U     &kp Y    &kp APOS
-<<<<<<< HEAD
-                &mt LGUI A    &mt LALT R    &mt LCTRL S    &mt LSHIFT T  &kp G         &kp M    &kp N    &kp E     &kp I    &kp O
-                &kp Z    &kp X    &kp C   &kp D  &kp V                         &kp K    &kp H    &kp COMMA &kp DOT  &kp FSLH
-                        &tog GAME  &mt SYM1 SPC  &mt TAB                          &kp RET  &kp BSPC &trans
-=======
-                &kp A    &kp R    &kp S    &mt LSHIFT T         &kp G                         &kp M    &kp N    &kp E     &kp I    &kp O
+                &kp A    &kp R    &kp S    &mt LSHIFT T  &kp G                         &kp M    &kp N    &kp E     &kp I    &kp O
                 &kp Z    &kp X    &kp C    &kp D         &kp V                         &kp K    &kp H    &kp COMMA &kp DOT  &kp FSLH
                                   &tog GAME  &kp SPC  &kp TAB                          &kp RET  &kp BSPC &trans
->>>>>>> parent of 2a74d5b (added num layer)
             >;
         };
 
@@ -82,12 +76,6 @@
             >;
         };
 
-<<<<<<< HEAD
-
-
-
-
-=======
         // Low frequency symbols
         sym2_layer {
             bindings = <
@@ -98,7 +86,6 @@
             >;
         };
 
->>>>>>> parent of 2a74d5b (added num layer)
         // Function keys with modifiers
         fnc_layer {
             bindings = <
