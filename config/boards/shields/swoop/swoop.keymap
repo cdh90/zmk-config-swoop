@@ -33,12 +33,7 @@
             bindings = <&mo ACC>;
         };
 
-        // internal-left & external-right thumb keys
-        combo_num {
-            timeout-ms = <200>;
-            key-positions = <31 33>;
-            bindings = <&mo NUM>;
-        };
+
 
         // both left thumb keys
         combo_settings {
@@ -56,8 +51,8 @@
             bindings = <
                 &kp Q    &kp W    &kp F    &kp P         &kp B                         &kp J    &kp L    &kp U     &kp Y    &kp APOS
                 &mt LGUI A    &mt LALT R    &mt LCTRL S    &mt LSHIFT T  &kp G         &kp M    &kp N    &kp E     &kp I    &kp O
-                &kp Z    &kp X    &kp C    &kp D         &kp V                         &kp K    &kp H    &kp COMMA &kp DOT  &kp FSLH
-                                  &tog GAME  &mt SYM1 SPC  &mt TAB                          &kp RET  &kp BSPC &trans
+                &kp Z    &kp X    &kp C   kp D  &kp V                         &kp K    &kp H    &kp COMMA &kp DOT  &kp FSLH
+                        &tog GAME  &mt SYM1 SPC  &mt TAB                          &kp RET  &kp BSPC &trans
             >;
         };
 
@@ -78,19 +73,11 @@
                 &kp N1   &kp N2       &kp N3      &kp N4            &kp N5                      &kp N6          &kp N7       &kp N8     &kp N9          &kp N0
                 &kp LT   &kp PRCNT    &kp LPAR    &kp LBRC    &kp RA(LBKT)                      &kp KP_EQUAL    &kp QMARK    &kp SQT    &kp PLUS        &kp STAR
                 &kp GT   &kp DLLR     &kp RPAR    &kp RBRC    &kp RA(RBKT)                      &kp AT          &kp EXCL     &kp DQT    &kp KP_MINUS    &kp FSLH
-                                             &trans    &mo FNC    &mo NUM                      &trans          &trans       &trans
+                                             &trans    &mo FNC    &trans                      &trans          &trans       &trans
             >;
         };
 
-        // numbers
-        num_layer {
-            bindings = <
-                &trans   &trans    &trans    &trans    &trans                       &kp APOS    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_EQUAL
-                &kp LGUI   &kp LALT    &kp LCTRL    &kp LSHIFT  &trans              &kp KP_PLUS    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
-                &trans   &trans    &trans    &trans    &trans                       &kp KP_MULTIPLY   &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_SLASH
-                                   &trans    &trans    &kp SPACE                      &kp KP_N0    &kp BSPC    &trans
-            >;
-        };
+
 
 
 
