@@ -52,7 +52,7 @@
                 &kp Q    &kp W    &kp F    &kp P         &kp B                         &kp J    &kp L    &kp U     &kp Y    &kp APOS
                 &mt LGUI A    &mt LALT R    &mt LCTRL S  &mt LSHIFT T  &kp G           &kp M    &mt RSHIFT N    &mt RCTRL E     &mt RALT I    &mt RGUI O
                 &kp Z    &kp X    &kp C    &kp D         &kp V                         &kp K    &kp H    &kp COMMA &kp DOT  &kp FSLH
-                                  &tog GAME  &kp SPC  &kp TAB                          &kp RET  &kp BSPC &trans
+                                  &tog GAME  &my SYM2 SPC  &kp TAB                          &kp RET  &kp BSPC &trans
             >;
         };
 
@@ -79,10 +79,10 @@
         // Low frequency symbols
         sym2_layer {
             bindings = <
-                &trans   &trans    &trans    &trans    &trans                       &trans    &trans    &trans    &trans    &trans
-                &trans   &trans    &trans    &trans    &trans                       &trans    &trans    &trans    &trans    &trans
-                &trans   &trans    &trans    &trans    &trans                       &trans    &trans    &trans    &trans    &trans
-                                   &trans    &trans    &trans                       &trans    &trans    &trans
+                &trans   &trans    &trans    &trans    &trans                       &kp DQT    &kp N7    &kp N8     &kp N9     &kp KP_EQUAL
+                &trans   &trans    &trans    &trans    &trans                       &kp KP_PLUS    &kp N4     &kp N5     &kp N5     &kp KP_MINUS 
+                &trans   &trans    &trans    &trans    &trans                       &kp KP_MULTIPLY    &kp N1     &kp N2     &kp N3     &kp FSLH 
+                                   &trans    &trans    &trans                       &kp N0    &kp BSPC    &trans
             >;
         };
 
