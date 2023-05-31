@@ -67,9 +67,9 @@
         default_layer {
             bindings = <
                 &kp Q    &kp W    &kp F    &kp P         &kp B                         &kp J    &kp L    &kp U     &kp Y    &kp APOS
-                &hm LGUI A    &hm LALT R    &hm LCTRL S  &mt LSHIFT T  &kp G           &kp M    &hm RSHIFT N    &hm RCTRL E     &hm RALT I    &hm RGUI O
+                &hm LGUI A    &hm LALT R    &hm LCTRL S  &hm LSHIFT T  &kp G           &kp M    &hm RSHIFT N    &hm RCTRL E     &hm RALT I    &hm RGUI O
                 &kp Z    &kp X    &kp C    &kp D         &kp V                         &kp K    &kp H    &kp COMMA &kp DOT  &kp FSLH
-                                  &tog GAME  &lt SYM2 SPC  &kp TAB                          &kp RET  &kp BSPC &trans
+                                  &tog GAME  &lt SYM1 SPC  &lt SYM2 TAB                          &kp RET  &kp BSPC &trans
             >;
         };
 
@@ -83,13 +83,15 @@
             >;
         };
 
+
+
         // Numbers and high frequency symbols
         sym1_layer {
             bindings = <
-                &kp N1   &kp N2       &kp N3      &kp N4            &kp N5                      &kp N6          &kp N7       &kp N8     &kp N9          &kp N0
-                &kp LT   &kp PRCNT    &kp LPAR    &kp LBRC    &kp RA(LBKT)                      &kp KP_EQUAL    &kp QMARK    &kp SQT    &kp PLUS        &kp STAR
-                &kp GT   &kp DLLR     &kp RPAR    &kp RBRC    &kp RA(RBKT)                      &kp AT          &kp EXCL     &kp DQT    &kp KP_MINUS    &kp FSLH
-                                             &trans    &mo FNC    &trans                      &trans          &trans       &trans
+                &kp N1   &kp N2       &kp N3      &kp N4            &kp N5                 &kp DQT         &kp LBRC     &kp RBRC     &kp DLLR      &kp SEMI
+                 &kp LGUI    &kp LALT    &kp LCTRL  &hm LSHIFT KP_EQUAL  &none             &kp RBRC    &kp LBKT     &kp RBKT    &kp UNDER        &kp FSLH
+                &none    &none      &none     &none    &none                               &kp AMPS  &kp EXCL      &kp COMMA    &kp DOT    &kp AT  
+                                             &none     &none    &none                      &kp NUHS            &kp BSPC       &trans
             >;
         };
 
