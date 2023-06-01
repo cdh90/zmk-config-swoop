@@ -76,9 +76,9 @@
         // Main modifiers and arrow keys
         nav_layer {
             bindings = <
-                &kp ESC    &kp HOME       &kp END      &kp DEL         &trans                  &kp K_CUT        &kp K_COPY     &kp K_PASTE      &trans    &trans
+                &kp ESC    &kp HOME     &kp END      &kp DEL         &trans                   &kp K_CUT        &kp K_COPY     &kp K_PASTE      &trans    &trans
                 &kp LEFT   &kp DOWN     &kp UP    &kp RIGHT     &kp RALT                       &trans       &kp RSHIFT    &kp RCTRL     &kp RALT    &kp RGUI
-                &trans  &kp PG_DOWN    &kp PG_UP   &kp TAB      &kp LC(V)                       &kp LC(BSPC)     &kp BSPC     &trans      &trans      &trans
+                &trans  &kp PG_DOWN    &kp PG_UP   &kp TAB      &kp LC(V)                       &trans     &trans     &trans      &trans      &trans
                                                  &trans    &trans    &trans                       &kp RET        &kp BSPC      &mo FNC
             >;
         };
