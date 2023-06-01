@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 #define DEFAULT  0
-#define EXT      1
+#define NAV      1
 #define SYM1     2
 #define SYM2     3
 #define FNC      4
@@ -69,12 +69,12 @@
                 &kp Q    &kp W    &kp F    &kp P         &kp B                         &kp J    &kp L    &kp U     &kp Y    &kp APOS
                 &hm LGUI A    &hm LALT R    &hm LCTRL S  &hm LSHIFT T  &kp G           &kp M    &hm RSHIFT N    &hm RCTRL E     &hm RALT I    &hm RGUI O
                 &kp Z    &kp X    &kp C    &kp D         &kp V                         &kp K    &kp H    &kp COMMA &kp DOT  &kp FSLH
-                                  &tog GAME  &lt SYM1 SPC  &lt SYM2 TAB                          &kp RET  &kp BSPC &trans
+                                  &tog GAME  &lt SYM1 SPC  &lt SYM2 TAB                          &lt NAV RET  &kp BSPC &trans
             >;
         };
 
         // Main modifiers and arrow keys
-        ext_layer {
+        nav_layer {
             bindings = <
                 &kp ESC     &trans       &trans      &trans          &trans                       &kp PG_UP        &kp HOME     &kp UP      &kp END     &kp CAPS
                 &sk LALT    &sk LGUI     &sk LSFT    &sk LCTRL     &kp RALT                       &kp PG_DN        &kp LEFT     &kp DOWN    &kp RIGHT   &kp DEL
